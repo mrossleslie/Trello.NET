@@ -29,8 +29,12 @@ namespace TrelloNet.Internal
 		{
 			Guard.NotNullOrEmpty(applicationName, "applicationName");
 
-			return new Uri(string.Format("{0}/connect?key={1}&name={2}&response_type=token&scope={3}&expiration={4}",
-				BaseUrl, _applicationKey, applicationName, scope.ToScopeString(), expiration.ToExpirationString()));
+			return new Uri($"{BaseUrl}/connect" +
+			               $"?key={_applicationKey}" +
+			               $"&name={applicationName}" +
+			               $"&response_type=token" +
+			               $"&scope={scope.ToScopeString()}" +
+			               $"&expiration={expiration.ToExpirationString()}");
 		}
 
 		public void Request(IRestRequest request)

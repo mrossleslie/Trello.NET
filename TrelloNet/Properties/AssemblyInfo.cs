@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Trello.NET")]
 [assembly: AssemblyDescription("A .NET client library for Trello.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Oskar Dillén")]
+[assembly: AssemblyCompany("MattLeslie Tech")]
 [assembly: AssemblyProduct("TrelloNet")]
-[assembly: AssemblyCopyright("Copyright © Oskar Dillén 2012")]
+[assembly: AssemblyCopyright("Copyright © Oskar Dillén 2012 (Updated: Matt Leslie 2017)")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -31,6 +31,6 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyInformationalVersion("0.6.2")]
-[assembly: AssemblyVersion("0.6.2.0")]
-[assembly: AssemblyFileVersion("0.6.2.0")]
+[assembly: AssemblyInformationalVersion("0.7.0")]
+[assembly: AssemblyVersion("0.7.0.0")]
+[assembly: AssemblyFileVersion("0.7.0.0")]

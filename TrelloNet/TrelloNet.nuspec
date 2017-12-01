@@ -7,10 +7,16 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
-    <projectUrl>https://github.com/dillenmeister/Trello.NET</projectUrl>
+    <projectUrl>https://github.com/mrossleslie/Trello.NET</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
+
+      0.7.0
+      * Took over project (Was abandonware)
+      * Updated Framework to 4.6.2
+      * Updated dependencies to Latest
+      * Fixed Authentication Uri for the updated Trello API
 
       0.6.2
       * Issue any request to the trello api using Trello.Advanced.Get/Post/Put/Delete
@@ -29,11 +35,11 @@
       * Date format correction for Trello.Since.Date(dateTime)
 
     </releaseNotes>
-    <copyright>Copyright 2012</copyright>
+    <copyright>Copyright 2017</copyright>
     <tags>trello</tags>
     <dependencies>
-      <dependency id="Newtonsoft.Json" version="4.5" />
-      <dependency id="RestSharp" version="104.1.0" />
+      <dependency id="Newtonsoft.Json" version="10.0.3" />
+      <dependency id="RestSharp" version="106.1.0" />
     </dependencies>
   </metadata>
 </package>

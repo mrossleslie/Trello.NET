@@ -34,7 +34,7 @@ namespace TrelloNet.Internal
 			               $"&scope={scope.ToScopeString()}" +
 			               "&response_type=token" +
 			               $"&name={applicationName}" +
-			               $"key={_applicationKey}");
+			               $"&key={_applicationKey}");
 		}
 
 		public void Request(IRestRequest request)
